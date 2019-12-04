@@ -1,0 +1,320 @@
+@font-face {
+    font-family: 'Proxima Nova Bl';
+    src: url('ProximaNova-Black.eot');
+    src: local('Proxima Nova Black'), local('ProximaNova-Black'),
+    url('ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-Black.woff2') format('woff2'),
+    url('ProximaNova-Black.woff') format('woff'),
+    url('ProximaNova-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('ProximaNova-Extrabld.eot');
+    src: local('Proxima Nova Extrabold'), local('ProximaNova-Extrabld'),
+    url('ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-Extrabld.woff2') format('woff2'),
+    url('ProximaNova-Extrabld.woff') format('woff'),
+    url('ProximaNova-Extrabld.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('ProximaNova-SemiboldIt.eot');
+    src: local('Proxima Nova Semibold Italic'), local('ProximaNova-SemiboldIt'),
+    url('ProximaNova-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-SemiboldIt.woff2') format('woff2'),
+    url('ProximaNova-SemiboldIt.woff') format('woff'),
+    url('ProximaNova-SemiboldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('ProximaNovaT-Thin.eot');
+    src: local('Proxima Nova Thin'), local('ProximaNovaT-Thin'),
+    url('ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNovaT-Thin.woff2') format('woff2'),
+    url('ProximaNovaT-Thin.woff') format('woff'),
+    url('ProximaNovaT-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('ProximaNova-Light.eot');
+    src: local('Proxima Nova Light'), local('ProximaNova-Light'),
+    url('ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-Light.woff2') format('woff2'),
+    url('ProximaNova-Light.woff') format('woff'),
+    url('ProximaNova-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bl';
+    src: url('ProximaNova-BlackIt.eot');
+    src: local('Proxima Nova Black Italic'), local('ProximaNova-BlackIt'),
+    url('ProximaNova-BlackIt.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-BlackIt.woff2') format('woff2'),
+    url('ProximaNova-BlackIt.woff') format('woff'),
+    url('ProximaNova-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('ProximaNova-BoldIt.eot');
+    src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldIt'),
+    url('ProximaNova-BoldIt.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-BoldIt.woff2') format('woff2'),
+    url('ProximaNova-BoldIt.woff') format('woff'),
+    url('ProximaNova-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('ProximaNova-ThinIt.eot');
+    src: local('Proxima Nova Thin Italic'), local('ProximaNova-ThinIt'),
+    url('ProximaNova-ThinIt.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-ThinIt.woff2') format('woff2'),
+    url('ProximaNova-ThinIt.woff') format('woff'),
+    url('ProximaNova-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('ProximaNova-Bold.eot');
+    src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+    url('ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-Bold.woff2') format('woff2'),
+    url('ProximaNova-Bold.woff') format('woff'),
+    url('ProximaNova-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('ProximaNova-RegularIt.eot');
+    src: local('Proxima Nova Regular Italic'), local('ProximaNova-RegularIt'),
+    url('ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-RegularIt.woff2') format('woff2'),
+    url('ProximaNova-RegularIt.woff') format('woff'),
+    url('ProximaNova-RegularIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('ProximaNova-ExtrabldIt.eot');
+    src: local('Proxima Nova Extrabold Italic'), local('ProximaNova-ExtrabldIt'),
+    url('ProximaNova-ExtrabldIt.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-ExtrabldIt.woff2') format('woff2'),
+    url('ProximaNova-ExtrabldIt.woff') format('woff'),
+    url('ProximaNova-ExtrabldIt.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('ProximaNova-Regular.eot');
+    src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+    url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-Regular.woff2') format('woff2'),
+    url('ProximaNova-Regular.woff') format('woff'),
+    url('ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('ProximaNova-LightIt.eot');
+    src: local('Proxima Nova Light Italic'), local('ProximaNova-LightIt'),
+    url('ProximaNova-LightIt.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-LightIt.woff2') format('woff2'),
+    url('ProximaNova-LightIt.woff') format('woff'),
+    url('ProximaNova-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('ProximaNova-Semibold.eot');
+    src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+    url('ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-Semibold.woff2') format('woff2'),
+    url('ProximaNova-Semibold.woff') format('woff'),
+    url('ProximaNova-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+header {
+    font-family: 'Muli', sans-serif;
+    color: #010101 !important;
+    font-size: 16px;
+    font-weight: 100 !important;
+    background-color: #ffffff;
+    padding: 15px 0 15px;
+}
+
+.navbar .navbar-nav a {
+    color: #010101;
+}
+
+.navbar-expand-md .nav-link {
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Muli', sans-serif !important;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4f4f4f;
+}
+
+h1 {
+    font-family: 'Muli', sans-serif;
+    color: white;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.baner { 
+    height: 800px;
+    background-image: url('../img/bg.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    min-height: 280px;
+    padding-top: 275px;
+
+}
+
+.baner-blog {
+    height: 400px;
+    background-image: url('../img/blog.png');
+    padding-top: 150px;
+}
+
+.text-block {
+    font-family: 'Muli', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+    padding: 100px 0 50px;
+}
+
+.blog img {
+    margin-bottom: 45px;
+    width: 100%;
+}
+
+.description {
+    padding-bottom: 90px;
+}
+
+.blog .bg-white {
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+    height: auto;
+}
+
+.date {
+    font-family: 'Muli', sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #a1a1a1;
+}
+
+.text-black {
+    font-family: 'Muli', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    padding: 20px 0 25px;
+}
+
+.text {
+    padding-left: 30px;
+    padding-bottom: 70px;
+}
+
+#news-list li {
+    margin-bottom: 30px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(0,0,0);
+} 
+
+.btn-danger {
+    background: #fa4a33;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 30px;
+    margin: 45px 0 100px !important;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to bottom, #4de8fd, #0f53f1);
+    width: 195px;
+    height: 50px;
+}
+
+form {
+    padding: 0 15px;
+}
+
+
+footer {
+    font-family: 'Muli';
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 22px 0 28px;
+    background-color: #1d3567;
+}
+
+@media (min-width: 768px) { 
+    .description p {
+        max-width: 55%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
+    .text-block {
+        max-width: 510px;
+    }
+}
